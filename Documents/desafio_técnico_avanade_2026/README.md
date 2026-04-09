@@ -34,6 +34,20 @@ Aplicação web completa para cadastro e gerenciamento de tarefas, desenvolvida 
 
 ---
 
+## 🌳 Git Flow
+
+Este projeto segue o modelo **Git Flow** para organização de branches:
+
+- `main` - Produção (releases oficiais)
+- `develop` - Staging (desenvolvimento)
+- `feature/*` - Novas funcionalidades
+- `release/*` - Preparação de versão
+- `hotfix/*` - Correções urgentes
+
+📖 **Saiba mais:** [Guia Completo de Git Flow](docs/GIT_FLOW.md)
+
+---
+
 ## 📁 Estrutura do Projeto
 
 ```

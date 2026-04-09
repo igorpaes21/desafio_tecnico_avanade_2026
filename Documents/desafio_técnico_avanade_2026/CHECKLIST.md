@@ -9,7 +9,14 @@
 - [x] Criar documento de arquitetura
 - [x] Criar guia passo a passo
 - [x] Criar .gitignore
-- [ ] Commit inicial no Git
+- [x] Commit inicial no Git
+
+### Git Flow
+- [x] Criar branch `develop`
+- [x] Criar documentação Git Flow
+- [x] Configurar branches no repositório
+- [x] Atualizar README com Git Flow
+- [ ] Configurar proteção de branches no GitHub
 
 ---
 
@@ -140,14 +147,20 @@
 
 ## 🎯 Git e Deploy (FASE 6)
 
+### Branches e Git Flow
+- [x] `main` criada
+- [x] `develop` criada
+- [x] Documentação Git Flow criada
+- [ ] Branches protegidas no GitHub (main/develop)
+- [ ] Workflow de feature branches validado
+
 ### Versionamento
-- [ ] Commit: "chore: setup inicial projeto"
-- [ ] Commit: "feat: criar backend CRUD"
-- [ ] Commit: "test: validar endpoints api"
-- [ ] Commit: "feat: criar frontend angular"
-- [ ] Commit: "feat: integrar frontend + backend"
-- [ ] Commit: "docs: adicionar documentação"
-- [ ] Commit: "fix: ajustes e correções"
+- [ ] Commit: "chore: setup inicial projeto" ✅ PRONTO
+- [ ] Todos commits em feature branches (não direto em main/develop)
+- [ ] feature/crud-backend - "feat: criar backend CRUD"
+- [ ] feature/frontend-angular - "feat: criar frontend angular"
+- [ ] release/v1.0.0 - "bump: versão 1.0.0"
+- [ ] Tag v1.0.0 criada em main
 
 ### Validação Final
 - [ ] Código compila sem erros
