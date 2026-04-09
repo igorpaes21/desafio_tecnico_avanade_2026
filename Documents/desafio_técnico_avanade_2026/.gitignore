@@ -1,0 +1,44 @@
+# Ignorar arquivos e pastas
+
+# Backend .NET
+backend/**/bin/
+backend/**/obj/
+backend/**/*.user
+backend/**/.vs/
+
+# Frontend Angular
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Banco de dados
+*.mdf
+*.ldf
+*.mdf-shm
+*.mdf-wal
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Temporários
+temp/
+tmp/
+.tmp/
